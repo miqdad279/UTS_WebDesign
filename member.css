@@ -1,0 +1,65 @@
+body{
+    margin: 0px;
+    background-color: #2E4462 ;
+}
+.container{
+    width: 90%;
+    margin: auto;
+}
+
+nav{
+    overflow: hidden;
+}
+
+nav .logo{
+    text-align: center;
+}
+
+nav ul{
+    float: left;
+}
+
+
+nav ul li{
+    display: inline;
+    margin-right: 20px;
+    text-decoration: none;
+ }
+
+ nav h1, a{
+    text-decoration: none;
+    color: white;
+}
+
+nav .nav2 ul{
+    padding-top: 50px;
+    text-align: center;
+    float: none;
+}
+
+/*  */
+.join{
+    margin-top: 50px;
+    text-align: center;
+    color: white;
+}
+
+form{
+    margin-left: 30%;
+    margin-top: 50px;
+    color: white;
+}
+
+footer{
+    margin-top: 250px;
+    background-color: transparent;
+    color: white;
+    height: 100px;
+}
+
+footer p{
+    color: white;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+}

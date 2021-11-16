@@ -1,0 +1,123 @@
+body{
+    margin: 0px;
+    background-color: #2E4462 ;
+}
+.container{
+    width: 90%;
+    margin: auto;
+}
+
+nav{
+    overflow: hidden;
+}
+
+nav .logo{
+    text-align: center;
+}
+
+nav ul{
+    float: left;
+}
+
+nav .member{
+    float: right;
+    padding: 0px;
+}
+
+nav .member li{
+    margin-right: 40px;
+}
+nav .member li a{
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-decoration: none;
+    background-color: transparent; 
+    color: white; 
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+nav ul li{
+    display: inline;
+    margin-right: 20px;
+    text-decoration: none;
+ }
+
+ nav h1, a{
+    text-decoration: none;
+    color: white;
+}
+
+nav .nav2 ul{
+    padding-top: 50px;
+    text-align: center;
+    float: none;
+}
+
+/* katalog */
+.katalog{
+    margin-top: 50px;
+    text-align: center;
+    color: white;
+}
+
+/* kategori */
+
+.judul{
+    color: white;
+}
+
+.kategori{
+    margin-top: 50px;
+    margin-left: 40px;
+}
+.kategori a{
+    color: black;
+}
+
+.row {
+    margin: 8px;
+  }
+  
+  .row .column {
+    padding: 12px;
+  }
+  
+  .column {
+    float: left;
+    width: 30%;
+  }
+
+  .content{
+      padding: 20px;
+      background-color: lightgray;
+      border-radius: 20px;
+      text-align: center;     
+  }
+  .content a{
+     color: black;
+  }
+
+  /* kelas */
+
+  .kelas{
+    margin-top: 400px;
+    margin-left: 40px;
+}
+
+
+
+footer{
+    margin-top: 1000px;
+    background-color: transparent;
+    color: white;
+    height: 100px;
+}
+
+footer p{
+    color: white;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+}

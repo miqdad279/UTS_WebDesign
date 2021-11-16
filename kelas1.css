@@ -1,0 +1,98 @@
+body{
+    margin: 0px;
+    background-color: #2E4462 ;
+}
+.container{
+    width: 90%;
+    margin: auto;
+}
+
+nav{
+    overflow: hidden;
+}
+
+nav .logo{
+    text-align: center;
+}
+
+nav ul{
+    float: left;
+}
+
+nav .member{
+    float: right;
+    padding: 0px;
+}
+
+nav .member li{
+    margin-right: 40px;
+}
+nav .member li a{
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-decoration: none;
+    background-color: transparent; 
+    color: white; 
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+nav ul li{
+    display: inline;
+    margin-right: 20px;
+    text-decoration: none;
+ }
+
+ nav h1, a{
+    text-decoration: none;
+    color: white;
+}
+
+nav .nav2 ul{
+    padding-top: 50px;
+    text-align: center;
+    float: none;
+}
+
+/*  */
+
+.gabung{
+    padding: 0px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.gabung li a{
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: transparent; 
+    color: #2E4462; 
+    border: 2px solid #2E4462;
+    border-radius: 5px;
+}
+
+.gabung li{
+    list-style: none;
+}
+
+.kelas1{
+    margin-top: 50px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+footer{
+    margin-top: 250px;
+    background-color: transparent;
+    color: white;
+    height: 100px;
+}
+footer p{
+    color: white;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+}
